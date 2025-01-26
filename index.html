@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panic Button</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Google Fonts link for Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button id="panicButton">
+        <img id="panicButtonImage" src="button_up.png" alt="Panic Button">
+    </button>
+    <div id="instructions" style="display: none;">
+        <h1 id="mainText">Follow the red dot with your eyes</h1>
+        <p id="subText">Click anywhere to continue</p>
+    </div>
+    <div id="ballContainer" style="display: none;">
+        <div class="track">
+            <div class="ball" id="ball"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
